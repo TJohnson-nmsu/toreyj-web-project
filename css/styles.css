@@ -4,17 +4,56 @@ body {
     font-family: 'Bookman', 'URW Bookman L', sans-serif; /* Added the base font, annd added a backup font just in case. Switched to somthing spicier then Arial--*/
     font-size: 18px; /*--Added a base font size, to make sure the text is readable. I can always change this later if I want to. --*/
     background-color: #4d3d96; /*--Reccommed by VsCode, I thought I could try it until I get more comfrtable with CSS--*/ /*Inspired by the Justin Bieber My World Tour poster--*/
-    color: #eba9a9; 
+    color: #030202; /*Changed font color back to black, I think it looks better with the background color. The pink just looked weird.--*/
     margin: 0;
     padding: 20px;
     line-height: 2.0; /*--Added line height to make the text more readable. Was a little packed togehter.--*/
 }
 /*--This connects the navigation bar--*/
 nav {
-    background-color: #5a4311; /*--Changed the background color of the nav bar to a darker shade, to make it stand out more. I think this is a good color for the nav bar, its like a pumpkin brown --*/
+    background-color: #885dd8; /*--Changed the background color of the nav bar to a darker shade, to make it stand out more. I think this is a good color for the nav bar, its like a pumpkin brown --*/
     padding: 12px;
     margin-bottom: 40px; /*--Added some margin to the bottom of the nav bar, to give it some space from the rest of the content, forty shouldn't be too much. Removed second color for clarity--*/
     border-radius: 10px; /*--Added border radius to the nav bar, to give it some rounded corners. I think this will make it look a little nicer.--*/
 } 
-
+/*--Requirement is to change links--*/
+nav ul {
+    list-style-type: none; /*--Removed the default bullet points from the nav bar, to make it look cleaner.--*/
+    margin: 0;
+    padding: 0;
+    display: flex; /*--Added flex display to the nav bar, to make the links appear in a row. I think this will make it look more organized.--*/
+    justify-content: center; /*--Added justify content to center the links in the nav bar, to make it look more balanced.--*/
+    gap: 20px; /*--Added some gap between the links, to give them some space from each other.--*/
+}
+nav a {
+    color: #030202; /*--Changed the color of the links to black, to make them stand out more against the nav bar background. I think this is a good color for the links, it matches the font color.--*/
+    text-decoration: none; /*--Removed the default underline from the links, to make them look cleaner.--*/
+    font-weight: bold; /*--Added bold font weight to the links, to make them stand out more. I think this will make them look more important.--*/
+    padding: 8px 16px; /*--Added some padding to the links, to give them some space from the edges of the nav bar. I think this will make them look more clickable.--*/
+    border-radius: 5px; /*--Added border radius to the links, to give, suggest by VSCode--/
 /*-- The last push did fix it. However, the link was broken on page two leading to page three. The font did look differnet, maybe increase the font size.--*/
+}
+nav a:hover {
+    background-color: #030202; /*--Added a hover effect to the links, to make them change color when the user hovers over them. I think this will make them look more interactive.--*/
+    color: #885dd8; /*--Changed the color of the links on hover to match the nav bar background, to create a cohesive look.--*/
+    text-decoration: wavy underline; /*--I was going to uses a normal underline. VS suggest to do a wavy. I think that is a pretty fun change. IF i hate it I will remove it..--*/
+}
+/*--This connects the header--*/
+h1 {
+    color: #88602c; /*--Changed the color of the header to a brown, to make it stand out more.--*/
+    text-align: center; /*--Added text align to center the header, I think this will make it look nicer.--*/
+    margin-bottom: 40px; /*--Added some margin to the bottom of the header, to give it some space from the rest of the content.--*/
+    font-size: 36px; /*--Increased the font size of the header--*/
+}
+h2 {
+    color: #88602c; /*--Changed the color of the subheaders to match the header, to create a cohesive look.--*/
+    margin-top: 30px; /*--Added some margin to the top of the subheaders, to give them some space from the previous content.--*/
+    margin-bottom: 20px; /*--Added some margin to the bottom of the subheaders, to give them some space from the following content.--*/
+    font-size: 28px; /*--Increased the font size of the subheaders, to make them stand out more.--*/
+}
+h3 {
+    color: #88602c; /*--Changed the color of the sub-subheaders to match the header and subheaders, to create a cohesive look.--*/
+    margin-top: 30px; 
+    margin-bottom: 10px; 
+    font-size: 24px; /* Switched up the sixes to see what it would display*/
+}
