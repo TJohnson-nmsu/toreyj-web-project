@@ -1,0 +1,115 @@
+[33mcommit c2d07747cbd7ca379d7a506c4e5369f94cc6734c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Torey Johnson <toreynj@nmsu.edu>
+Date:   Thu Apr 23 15:05:50 2026 -0600
+
+    After my last update, I have successfully started building Project 3 and adding CSS styling...Once again I have encountered the dreadful white scree of death. I tried updating the main in project3, to still it was causing the page to break.I also began adding the navigation bar to see if that helps the page load and connect properly across all pages. I tried updating the links in Project 2 to make sure everything appears correctly and the navigation is consistent between pages. The expansion pack still had the Home link, but the addtion extended universve link has not appeared. The home page has both and they both work. At this point, I am testing changes incrementally to figure out what is affecting the page rendering. I also made small adjustments to the structure to ensure everything is properly connected. I have to use the restroom, so I figured this was a good time to push to see if anything was updated or improved on the site. I tried pushing it once, already and it failed. Second times a charm.
+
+[33mcommit 2a6180dd4229db3105afff9afbb75261fa17794c[m
+Author: Torey Johnson <toreynj@nmsu.edu>
+Date:   Thu Apr 23 14:34:46 2026 -0600
+
+    WOOO! I have offically started project3. I copied over the first few lines of code from inex.html and project2.  I am treying to give myself a based for the rest of the design process. The next step was to create the (styles.css) in the right folder.  I used (<link rel=stylesheet href=../css/styles.css>). I’ve noted that the double dots (..) are essential for navigating the directory structure. That is what will caused my nemises the white screen of dealth.  I used VS Codes, shortcut and created the file through the link. That was pretty cool. I wanted to push the few lines I managed to make sure the navagtion bar functions, and the page is actually created. I have a dream..that I will finsih this project today so, I can start working on the next project that is due on tuesday. I also really want this to get graded.
+
+[33mcommit 64c55298ae2833d69c4bba7d8b8005b5f393293e[m
+Author: Torey Johnson <toreynj@nmsu.edu>
+Date:   Thu Apr 23 14:10:40 2026 -0600
+
+    Alright, this push is to update  the README.md file with the information I have update. The table structure looks good. I don't know if I am sold on the colors yet, however, I can change those later. I still need to check spelling and grammar. I believe now it is time to strart project3. LETS GET THIS BREAD WOOOO!
+
+[33mcommit ff59bf80e59d565b23921d1d6f2bebeb24367879[m
+Author: Torey Johnson <toreynj@nmsu.edu>
+Date:   Thu Apr 23 13:56:05 2026 -0600
+
+    Success! The table actually worked! It’s a little weird because some of the text is bold where it shouldn’t be. I don’t have notes for everything yet, so I’ll probably need to go back and fix that for consistency. But first, I want to focus on getting the colors right. I’m aiming for the homepage to have a green, mossy “Shire” kind of vibe, and the second page to be more golden, like an expansion pack. I went back to the textbook to see how it recommends adding colors since I’m still working purely in HTML and not using CSS yet.All the titles should be bold now! Tedious, but progress is being made.  I went through and changed the first row to use <th> instead of <td>, since that’s how the page defines headers. I also added Macbeth (because how could I forget that one), and included notes for the rest of the table. Hopefully that also fixed the bold header issue.I made an attempt to change the color on each page, and if that works, I want to move on to styling the table itself. After that, I think I can finally start Project 3. I can always go back later to clean up paragraphs and text. I’m already a bit behind as it is.
+
+[33mcommit cb351874f324252e6bfb8d6e9d615049e215be16[m
+Author: Torey Johnson <toreynj@nmsu.edu>
+Date:   Thu Apr 23 13:03:28 2026 -0600
+
+    Okay, so it was honestly kind of hard to fall asleep because I couldn’t stop thinking about coding this list. I did end up getting some sleep, though, and then started working around 9 a.m. (with a necessary waffle break in between).I spent what felt like two straight hours grinding through it, and I finally got the bulk of the code done. It was pretty tedious. I think this was actually the longest stretch of pure coding in the whole project, or at least that’s how it felt. That said, the troubleshooting yesterday probably took the most time overall. Between the white screen of death (lol) and the image not showing up, that part was way more frustrating than the actual coding.I’m really hoping the table just works when I push it. But honestly, I’m starting to understand that development doesn’t “just work” most of the time lol. After I finish the table, I just need to add some color, and then I can finally move on to Project 3, I believe. Proud of myself so far, lets see what else I can accomplish.
+
+[33mcommit bb5ddbd28ec83613d64fc49fd1cf1a1fa00bda20[m
+Author: Torey Johnson <toreynj@nmsu.edu>
+Date:   Thu Apr 23 03:12:31 2026 -0600
+
+    Update README with detailed Project 2 progress
+
+[33mcommit e5382d1ce3ff4017b3f5874d61fdd89e309b31a8[m
+Author: Torey Johnson <toreynj@nmsu.edu>
+Date:   Thu Apr 23 02:57:51 2026 -0600
+
+    I’m lowkey really proud of what I’ve done so far. I think it might actually be easier to fully finish Project 2 first so I don’t mix up code, languages, or miss any requirements in Project 3 since my grades are depending on it. Right now I’m still missing the table for Project 2, and I was also asked to change the color scheme and font across the webpages, but I have not added any color styling yet. I already wrote the paragraph that will go above the table, and I think I also started setting up the basic table formatting, but I still need to actually build it and fill it in properly. I was thinking of doing a mossy green for the homepage and a gold tone for the expansion pack to match a “Shire” vibe.greens, browns, golds, and reds (especially for mushrooms), which could be expanded more in Project 3 once everything is stable. The first bit of brain fog I had was figuring out what to put in the table, so I decided to use my theatre experience. I participated in about 20 productions, which is the most anyone in my school has ever done, and I was involved throughout junior high and high school working in almost every area of theatre production. For the table, I plan to organize it into categories like musical productions, straight plays, Shakespeare productions, short play festival pieces, and competition pieces. In all of these, I either stage managed or assisted in directing, but I also did basically everything. I have 18 productions total to add. So tis table is going to be long. I honeslty, regret this decison. Its almost three AM, so this is probaly the last push of the night.
+
+[33mcommit b676ca208d379ca708a38e5c85a493547852f426[m
+Author: Torey Johnson <toreynj@nmsu.edu>
+Date:   Thu Apr 23 01:42:09 2026 -0600
+
+    LETS GOOOO!!! Finally, I got the image to appear on the homepage. I’m not exactly sure which troubleshooting change actually fixed it, but I’m really glad it’s working now. I also created another file inside the html folder specifically for Project 3 to keep everything organized and meet the directory requirements. Right now I’m kind of stuck between jumping into Project 3 and going back to finish Project 2. My plan is to at least open Project 3, create the file, and see how far I can get in about an hour. I also attempted to add a link to Project 3 so I can start connecting the pages early and make sure navigation doesn’t break later. I’m going to update the README file like Project 2 asked, then take a power nap for about thirty minutes. And then… hello world, it’s back to coding.
+
+[33mcommit b2e908dbb261320fcd00e5435d2199e38333122c[m
+Author: Torey Johnson <toreynj@nmsu.edu>
+Date:   Thu Apr 23 01:22:22 2026 -0600
+
+    And nothing… lol… the image still did not show up this time. I started a <div> tag and put the src and image information inside it, thinking that might help organize it differently, but that was not correct. In HTML, a <div> is just a container. It doesn’t display images on its own. I added an image back. I then updated the link to the photo that actually pops up in the browser. Just to see if that would change the icon to an image on the site page. I’m getting tired. I need another Red Bull.
+
+[33mcommit 82bb5c9dcd6bc065da8d714995fc85ba3180b446[m
+Author: Torey Johnson <toreynj@nmsu.edu>
+Date:   Thu Apr 23 01:14:12 2026 -0600
+
+    Hip hip hooray!All the raw code finally disappeared from where the image is supposed to be, which means the browser is now at least reading the (<img>) tag correctly. However, the broken image icon is still showing instead of the actual image.I wasn’t sure what else to try, so I inspected the image on Unsplash directly. That brought up the HTML code behind the image, where I found the photographer’s name and a longer direct link that I thought might work better. I copied that “master link” in hopes it would correctly display the image without needing to download it or create any extra files.Before pushing, I tested the link in VS Code, but it showed a “render request exceeded” message and then an image error kept appearing. Because of that issue, I went back and found a different image on Unsplash and copied a simpler direct address instead. After copying and pasting, what felt like 30 links. I deciede I needed to try and move on. I may skip the table for now and work on getting started on the CSS part. Project 3 is now two days late and it is past 1 a.m., so I want to try and start that before maybe taking a nap.  All of the links I tried showed up with an error in VS code, before I even pushed it  to github. I decied to  try and find a similar photo on upslash. I was able to find a link address I could copy, and appear in VS when I clicked the lin.I may skip the table for now and work on getting started on the CSS part. Depending on how much time everyhting is taking. Be like the Robionsons and "Keep Moving Forward".
+
+[33mcommit 51d0652cea2a770c72987b477ee633b32e939a21[m
+Author: Torey Johnson <toreynj@nmsu.edu>
+Date:   Thu Apr 23 00:41:16 2026 -0600
+
+    Updated the link again after clicking on the photo in VS Code, but it still shows the same image issue. I also changed the formatting around the align attribute again to test if that was causing the problem, but it didn’t seem to make a difference.
+    
+    I removed the image being treated like a heading to see if that would affect how it displays, but the issue is still happening. One thing I did notice is that the color in the editor changes after I removed the extra “Next Adventure” text, which suggests that part of the structure was affecting how the code was being interpreted. Time to run it  again to see if anything changed.
+
+[33mcommit 2d916cd571d318f1df1f7ea6dd86be4c12ae3d46[m
+Author: Torey Johnson <toreynj@nmsu.edu>
+Date:   Thu Apr 23 00:32:26 2026 -0600
+
+    For the next push, I tried removing the align attribute to see if it was causing an error with retrieving or displaying the image. I wanted to test whether that styling property was interfering with how the browser reads the image tag. Only changed that on thing.
+
+[33mcommit b8864450daeb98a9b4328038cd9158bdae53f2af[m
+Author: Torey Johnson <toreynj@nmsu.edu>
+Date:   Thu Apr 23 00:27:54 2026 -0600
+
+    Good news!the comment did work as a placeholder, and the text does appear above the image as intended. The paragraph also appeared underneath the “image,” which is a good sign that the structure is working correctly. However, the image itself did not appear on the page. If its not one thing its another, the star of the show is late. Typical diva behavior. My code appears on the page, but instead of the actual image, I only see the broken image icon and parts of the text/attributes (A hobbit house with a green door and a green awning, width="500" height="300", border=""). I copied the URL directly from Unsplash, so it should be valid. When I test the link in VS Code, it does open the image correctly in the browser, which means the source itself is working.I also removed a comment that seemed to be interfering with the width and height attributes turning grey in the editor. I’m going to attempt another push to see if the image finally appears correctly on the live page.
+
+[33mcommit 4ec69e80d0fc0476c7392452a3408776a4c61c78[m
+Author: Torey Johnson <toreynj@nmsu.edu>
+Date:   Thu Apr 23 00:11:48 2026 -0600
+
+    The extra character (>) is still on the expansion pack. The last push did successfully update the text, so that part of the project is now working correctly. Overall, the web pages are starting to come together more smoothly, even though there are still a few small errors that need attention. I found the extra (>), in between the two comments in line 1.  I am not done with project2, quite yet. To complete the requirments. I need an image, and to add a data table and populate the data. Before, this push was commited I tried to add an image to index.html. I wasnt sure what image to use, but I deceided to use a Hobbit door. It connects to the theme I have been working with. My newest tattoo also influenced that choice, since it represents the idea of leaving home and stepping into something new, which ties back to the Hobbit imagery and the overall concept of the site. Time is working against me, but overall I am proud of the project that has been made so far.
+
+[33mcommit 4d273b6b22d7634d4d991222e907702d737fa89c[m
+Author: Torey Johnson <toreynj@nmsu.edu>
+Date:   Wed Apr 22 23:22:52 2026 -0600
+
+    Each page now only has one link on the site, which makes the navigation feel cleaner. Page two, the expansion pack, still has the extra character (>) showing, so I need to find where that is in the code. The opening paragraph is not really a full paragraph yet, it’s only a few sentences and needs to be expanded. I also updated paragraph four and wrote a more developed “the heart of the nerd” section to add more depth to the page. After taking a short Mountain Dew and Oreo break, I’m ready to lock in and focus. My dream is to start on project3 , before 1 AM lol.
+
+[33mcommit 0d2789e80506fda572afab015ccd63d00b201ce5[m
+Author: Torey Johnson <toreynj@nmsu.edu>
+Date:   Wed Apr 22 22:23:13 2026 -0600
+
+    My Irish luck is paying off. I might make it to project three tonight. The expansion pack page is still holding onto the list format and the old title though, so something in that section didn’t update the way I expected. I tried clearing  the cache with (F4) and  the links still worked. So thats beuatiful. I removed the additional link from each page to see if keeping just one link between the two would work better and avoid any conflicts with navigation.
+
+[33mcommit 336ed2b1b428b71b6be2e861c9e28e2bdadc2b62[m
+Author: Torey Johnson <toreynj@nmsu.edu>
+Date:   Wed Apr 22 22:08:30 2026 -0600
+
+    Successful mission! The pages now link together. On the index.html file, I am going to delete the paragraphs from the home page so they only show up on the expansion pack side. I want to push these changes to see if they improve the display or break the page. My intention is to remove the paragraphs from the home page and remove the list from the expansion pack.
+
+[33mcommit c8b1558b03cc7a80775f38147636b95869b0d18c[m
+Author: Torey Johnson <toreynj@nmsu.edu>
+Date:   Wed Apr 22 21:58:58 2026 -0600
+
+    I adjusted the navigation link between index.thml and project2.html. Hopefully, both paages still appear , but  without the error (404) messages. I also corrected the file paths to make sure the browser is pointing to the right locations instead of breaking the URL. The (ul), did work over  vs code so hopefully, it translates to github.
+
+[33mcommit 242a1f5b955d5fbb1accba1acc180af7d364ee23[m
+Author: Torey Johnson <toreynj@nmsu.edu>
+Date:   Wed Apr 22 21:53:26 2026 -0600
+
+    Thank you to the Spaghetti Monster. I got words on the second pa

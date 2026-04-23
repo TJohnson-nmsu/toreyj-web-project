@@ -1,16 +1,20 @@
-<!--Created file for project3-->
-<!--Lets try adding the font first, to see if it does anything.-->
+/*--Created file for project3--*/
+/*--Lets try adding the font first, to see if it does anything.--*/
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f0f0f0; <!--Reccommed by VsCode, I thought I could try it until I get more comfrtable with CSS-->
-    color: #333;
+    font-family: 'Bookman', 'URW Bookman L', sans-serif; /* Added the base font, annd added a backup font just in case. Switched to somthing spicier then Arial--*/
+    font-size: 18px; /*--Added a base font size, to make sure the text is readable. I can always change this later if I want to. --*/
+    background-color: #4d3d96; /*--Reccommed by VsCode, I thought I could try it until I get more comfrtable with CSS--*/ /*Inspired by the Justin Bieber My World Tour poster--*/
+    color: #eba9a9; 
     margin: 0;
     padding: 20px;
+    line-height: 2.0; /*--Added line height to make the text more readable. Was a little packed togehter.--*/
 }
-<!--Added the navagtaion bar, to help everything connect.-->
+/*--This connects the navigation bar--*/
 nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 12 px;
-    background-color: #444; <!-- Changed recommed to see what it would do?-->
-} <!-- I am going to push to see if that changes the white screen of dealth I have been getting.-->
+    background-color: #5a4311; /*--Changed the background color of the nav bar to a darker shade, to make it stand out more. I think this is a good color for the nav bar, its like a pumpkin brown --*/
+    padding: 12px;
+    margin-bottom: 40px; /*--Added some margin to the bottom of the nav bar, to give it some space from the rest of the content, forty shouldn't be too much. Removed second color for clarity--*/
+    border-radius: 10px; /*--Added border radius to the nav bar, to give it some rounded corners. I think this will make it look a little nicer.--*/
+} 
+
+/*-- The last push did fix it. However, the link was broken on page two leading to page three. The font did look differnet, maybe increase the font size.--*/
