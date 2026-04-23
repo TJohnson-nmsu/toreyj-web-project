@@ -1,0 +1,16 @@
+<!--Created file for project3-->
+<!--Lets try adding the font first, to see if it does anything.-->
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; <!--Reccommed by VsCode, I thought I could try it until I get more comfrtable with CSS-->
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+<!--Added the navagtaion bar, to help everything connect.-->
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 12 px;
+    background-color: #444; <!-- Changed recommed to see what it would do?-->
+} <!-- I am going to push to see if that changes the white screen of dealth I have been getting.-->
