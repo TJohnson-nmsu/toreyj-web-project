@@ -2,7 +2,7 @@
 /*--Lets try adding the font first, to see if it does anything.--*/
 body {
     font-family: 'Bookman', 'URW Bookman L', sans-serif; /* Added the base font, annd added a backup font just in case. Switched to somthing spicier then Arial--*/
-    font-size: 18px; /*--Added a base font size, to make sure the text is readable. I can always change this later if I want to. --*/
+    font-size: 25px; /*--Added a base font size, to make sure the text is readable. I can always change this later if I want to. --*/
      background-color: #8b713e; /*--Way to agrressive honestly*/ /*Inspired by the Justin Bieber My World Tour poster--*/
     color: #2e1f0f; /*Changed font color back to black, I think it looks better with the background color. The pink just looked weird.--*/
     margin: 0;
@@ -11,7 +11,7 @@ body {
 }
 /*--This connects the navigation bar--*/
 nav {
-    background-color: #145529cf; /*--Changed the background color of the nav bar to a darker shade, to make it stand out more. I think this is a good color for the nav bar, its like a pumpkin brown --*/
+    background-color: #135c2acf; /*--Changed the background color of the nav bar to a darker shade, to make it stand out more. I think this is a good color for the nav bar, its like a pumpkin brown --*/
     padding: 12px;
     margin-bottom: 40px; /*--Added some margin to the bottom of the nav bar, to give it some space from the rest of the content, forty shouldn't be too much. Removed second color for clarity--*/
     border-radius: 10px; /*--Added border radius to the nav bar, to give it some rounded corners. I think this will make it look a little nicer.--*/
@@ -40,22 +40,29 @@ nav a:hover {
 }
 /*--This connects the header--*/
 h1 {
-    color: #928829; /*--Changed the color of the header to a brown, to make it stand out more.--*/
+    color: #135c2acf; /*--Changed the color of the header to a brown, to make it stand out more.--*/
     text-align: center; /*--Added text align to center the header, I think this will make it look nicer.--*/
     margin-bottom: 40px; /*--Added some margin to the bottom of the header, to give it some space from the rest of the content.--*/
     font-size: 36px; /*--Increased the font size of the header--*/
+    text-align: center;
+    text-decoration-line: wavy;
 }
 h2 {
-    color: #928829; /*--Changed the color of the subheaders to match the header, to create a cohesive look.--*/
+    color: #135c2acf; /*--Changed the color of the subheaders to match the header, to create a cohesive look.--*/
     margin-top: 30px; /*--Added some margin to the top of the subheaders, to give them some space from the previous content.--*/
     margin-bottom: 20px; /*--Added some margin to the bottom of the subheaders, to give them some space from the following content.--*/
     font-size: 28px; /*--Increased the font size of the subheaders, to make them stand out more.--*/
+    text-align: center;
+    text-decoration: wavy;
+
 }
 h3 {
-    color: #928829; /*--Changed the color of the sub-subheaders to match the header and subheaders, to create a cohesive look.--*/
+    color:#135c2acf; /*--Changed the color of the sub-subheaders to match the header and subheaders, to create a cohesive look.--*/
     margin-top: 30px; 
     margin-bottom: 10px; 
     font-size: 24px; /* Switched up the sixes to see what it would display*/
+    text-align: center;
+        text-decoration: wavy;
 }
 /*--Fix the images--*/
 img {
