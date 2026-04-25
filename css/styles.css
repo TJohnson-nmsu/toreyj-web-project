@@ -3,7 +3,7 @@
 body {
     font-family: 'Bookman', 'URW Bookman L', sans-serif; /* Added the base font, annd added a backup font just in case. Switched to somthing spicier then Arial--*/
     font-size: 18px; /*--Added a base font size, to make sure the text is readable. I can always change this later if I want to. --*/
-     background-color: #ad7816; /*--Way to agrressive honestly*/ /*Inspired by the Justin Bieber My World Tour poster--*/
+     background-color: #8b713e; /*--Way to agrressive honestly*/ /*Inspired by the Justin Bieber My World Tour poster--*/
     color: #2e1f0f; /*Changed font color back to black, I think it looks better with the background color. The pink just looked weird.--*/
     margin: 0;
     padding: 20px;
@@ -11,7 +11,7 @@ body {
 }
 /*--This connects the navigation bar--*/
 nav {
-    background-color: #8b6430; /*--Changed the background color of the nav bar to a darker shade, to make it stand out more. I think this is a good color for the nav bar, its like a pumpkin brown --*/
+    background-color: #145529cf; /*--Changed the background color of the nav bar to a darker shade, to make it stand out more. I think this is a good color for the nav bar, its like a pumpkin brown --*/
     padding: 12px;
     margin-bottom: 40px; /*--Added some margin to the bottom of the nav bar, to give it some space from the rest of the content, forty shouldn't be too much. Removed second color for clarity--*/
     border-radius: 10px; /*--Added border radius to the nav bar, to give it some rounded corners. I think this will make it look a little nicer.--*/
@@ -35,25 +35,41 @@ nav a {
 }
 nav a:hover {
     background-color: #030202; /*--Added a hover effect to the links, to make them change color when the user hovers over them. I think this will make them look more interactive.--*/
-    color: #816108; /*--Changed the color of the links on hover to match the nav bar background, to create a cohesive look.--*/
+    color: #705407; /*--Changed the color of the links on hover to match the nav bar background, to create a cohesive look.--*/
     text-decoration: wavy underline; /*--I was going to uses a normal underline. VS suggest to do a wavy. I think that is a pretty fun change. IF i hate it I will remove it..--*/
 }
 /*--This connects the header--*/
 h1 {
-    color: #6b4f2a; /*--Changed the color of the header to a brown, to make it stand out more.--*/
+    color: #928829; /*--Changed the color of the header to a brown, to make it stand out more.--*/
     text-align: center; /*--Added text align to center the header, I think this will make it look nicer.--*/
     margin-bottom: 40px; /*--Added some margin to the bottom of the header, to give it some space from the rest of the content.--*/
     font-size: 36px; /*--Increased the font size of the header--*/
 }
 h2 {
-    color: #6b4f2a; /*--Changed the color of the subheaders to match the header, to create a cohesive look.--*/
+    color: #928829; /*--Changed the color of the subheaders to match the header, to create a cohesive look.--*/
     margin-top: 30px; /*--Added some margin to the top of the subheaders, to give them some space from the previous content.--*/
     margin-bottom: 20px; /*--Added some margin to the bottom of the subheaders, to give them some space from the following content.--*/
     font-size: 28px; /*--Increased the font size of the subheaders, to make them stand out more.--*/
 }
 h3 {
-    color: #6b4f2a; /*--Changed the color of the sub-subheaders to match the header and subheaders, to create a cohesive look.--*/
+    color: #928829; /*--Changed the color of the sub-subheaders to match the header and subheaders, to create a cohesive look.--*/
     margin-top: 30px; 
     margin-bottom: 10px; 
     font-size: 24px; /* Switched up the sixes to see what it would display*/
+}
+/*--Fix the images--*/
+img {
+    width: 350px; /*--Added max width to the images, to make sure they don't overflow the container.--*/
+    height: 350 px; /*--Added auto height to the images, to maintain their aspect ratio.--*/
+    display: block; /*--Added block display to the images, to make them appear on their own line.--*/
+    border: 6px solid #6b4f2a; /*--Added a border to the images, to make them stand out more. I think this color matches the header and subheaders, so it will create a cohesive look.--*/
+    border-radius: 10px; /*--Added border radius to the images, to give them some rounded corners. I think this will make them look nicer.--*/
+    margin: 20px auto; /*--Added some margin to the top and bottom of the images, and centered them horizontally.--*/
+}
+/* Allign the photos in the center*/
+.center-img {
+    display: flex; /*--Added block display to the images, to make them appear on their own line.--*/
+    margin-left: auto; /*--Added auto margin to the left of the images, to center them horizontally.--*/
+    margin-right: auto; /*--Added auto margin to the right of the images, to center them horizontally.--*/
+    justify-content: center; /*--Added justify content to center the images, to make them look more balanced.--*/
 }
