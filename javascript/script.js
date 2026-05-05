@@ -6,12 +6,13 @@ document.getElementById("characterForm").addEventListener("submit", function(eve
         let characterClass = document.getElementById("class").value;
         let power = document.getElementById("power").value;
         //Basic validation for form
-        if (name === || power --- ""){
-            document.getElementById("output").innerHTML = "Hey adventurer! Please fill out all the fields before beginning your quest!"
+    if (name === "" || power === "") {            
+        document.getElementById("output").innerHTML = "Hey adventurer! Please fill out all the fields before beginning your quest!"
             return;
         }
         //Generate output information for the User
-        let outputMessage = "<h3>Your Nerdhaven Persona</h3>" +
+        let outputMessage = 
+        "<h3>Your Nerdhaven Persona</h3>" +
         "Congratulations! Your very own Nerdhaven Persona has been imagined.<br><br>" +
         "<strong>Gamer Tag:</strong> " + name + "<br>" +
         "<strong>Nerd-ID:</strong> " + characterClass + "<br>" +

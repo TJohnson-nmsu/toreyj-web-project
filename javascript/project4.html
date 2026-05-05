@@ -3,8 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>
-            Nerdhaven DLC Pack</title>
+        <title>Nerdhaven DLC Pack</title>
+        <!--Added to hopefully link the slying-->
+        <link rel="stylesheet" href="../css/styles.css"> 
     </head>
     <!-- Body of Website will go below -->
     <body>
@@ -21,23 +22,25 @@
             <p> Welcome to bonus content, experiments, and hidden suprises</p>
         <h2>Create Your Nerd!</h2>
         <p> Lets build your custom Nerdy persona</p>
-            <form id="characterForm">
-                <label for="name">Gamer Tag</label>
-                <input type="text" id="name" placeholder="e.g. I will know your name, Doctor!">
-                <label for="class">Nerd-ID</label>
-                <select id="class">
-                    <option value="Logic Mage">Logic Mage</option>
-                    <option value="Debug Knight">Debug Knight</option>
-                    <option value="Pixel Bard">Pixel Bard</option>
-                    <option value="Stack Sorcerer">Stack Sorcerer</option>
-                    <option value="Lore Engineer">Lore Engineer</option>
-                    <option value="Data Dazzler">Data Dazzler</option>
-                </select>
-                <label for="power">Nerdy Aura</label>
-                <input type="text" id="power" placeholder="e.g. What is your Obscure Expertise">
-                <button type="submit">Finish Them!</button>
-            </form>
+            <section> 
+                <form id="characterForm">
+                    <label for="name">Gamer Tag</label>
+                    <input type="text" id="name" placeholder="e.g. I will know your name, Doctor!">
+                    <label for="class">Nerd-ID</label>
+                    <select id="class">
+                        <option value="Logic Mage">Logic Mage</option>
+                        <option value="Debug Knight">Debug Knight</option>
+                         <option value="Pixel Bard">Pixel Bard</option>
+                        <option value="Stack Sorcerer">Stack Sorcerer</option>
+                        <option value="Lore Engineer">Lore Engineer</option>
+                        <option value="Data Dazzler">Data Dazzler</option>
+                    </select>
+                    <label for="power">Nerdy Aura</label>
+                    <input type="text" id="power" placeholder="e.g. What is your Obscure Expertise">
+                    <button type="submit">Finish Them!</button>
+                </form>
+            </section>
             <div id="output"></div>
-            <script src="../javascript/script.js"></script>   
+            <script src="../javascript/script.js"></script>  
     </body>
 </html>
