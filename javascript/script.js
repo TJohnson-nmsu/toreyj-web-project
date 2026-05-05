@@ -5,10 +5,21 @@ document.getElementById("characterForm").addEventListener("submit", function(eve
         let name = document.getElementById("name").value;
         let characterClass = document.getElementById("class").value;
         let power = document.getElementById("power").value;
+        //Basic validation for form
+        if (name === || power --- ""){
+            document.getElementById("output").innerHTML = "Hey adventurer! Please fill out all the fields before beginning your quest!"
+            return;
+        }
         //Generate output information for the User
-        let outputMessage =
-        "Congratulations! Your very own Nerdhaven Persona has been imagined.<br><br>" +  "<strong>Gamer Tag:</strong> " + name + "<br>" +  "<strong>Nerd-ID:</strong> " + characterClass + "<br>" + "<strong>Nerd Aura:</strong> " + power + "<br><br>" +" Welcome to the Nerdhaven DLC universe. Your story begins now, and your only limit is your imagination.<br><br>" +
-        "<em>\"We’re all stories in the end. Just make it a good one.\" — Doctor Who</em>";
+        let outputMessage = "<h3>Your Nerdhaven Persona</h3>" +
+        "Congratulations! Your very own Nerdhaven Persona has been imagined.<br><br>" +
+        "<strong>Gamer Tag:</strong> " + name + "<br>" +
+        "<strong>Nerd-ID:</strong> " + characterClass + "<br>" +
+        "<strong>Nerd Aura:</strong> " + power + "<br><br>" +
+        "Welcome to the Nerdhaven DLC universe. Your story begins now, and your only limit is your imagination.<br><br>" +
+         "<em>\"We’re all stories in the end. Just make it a good one.\" — Doctor Who</em>"
         //Display information to user
-        document.getElementById("output").innerHTML = outputMessage
+         document.getElementById("output").innerHTML = outputMessage;
+        // Clear form for next user
+         document.getElementById("characterForm").reset();
 });
