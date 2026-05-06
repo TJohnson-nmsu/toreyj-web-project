@@ -117,3 +117,30 @@ button:hover {
     border-left:6 px solid #036d21;
     border-radius: 10px;
 }
+ /*Updated the chart*/
+ .form-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 30px;
+ }
+.image-left img,
+.image-right img {
+    width: 200px;
+    height: auto;
+}
+ .form-column {
+    max-width: fit-content;
+ }
+
+ @media (max-width: 600px) {
+    .form-layout {
+        flex-direction: column;
+    }
+
+    .image-left img,
+    .image-right img {
+        width: 90%;
+    }
+}
